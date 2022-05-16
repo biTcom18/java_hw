@@ -30,7 +30,7 @@ import java.util.Date;
 public class ClientXML implements Client {
 
     //private static String XML_DAILY_URL = "http://www.cbr.ru/scripts/XML_daily.asp?date_req=%s";
-    private static String XML_DAILY_URL = "https://sdw-wsrest.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?startPeriod=2009-05-01&endPeriod=2009-05-31";
+    private static String XML_DAILY_URL = "https://sdw-wsrest.ecb.europa.eu/exchange-rate/USD/EUR?day=2021-04-27";
     private static String CBR_DATE_FORMAT = "dd/MM/yyyy";
     private static String ENCODING = "Windows-1251";
 
